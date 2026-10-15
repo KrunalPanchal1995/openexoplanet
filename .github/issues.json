@@ -1,0 +1,87 @@
+[
+  {
+    "title": "Fix typos and unclear sentences in the Session 1 notes",
+    "labels": [
+      "good first issue",
+      "beginner",
+      "documentation"
+    ],
+    "body": "## Problem\nThe Session 1 notes may contain typos or sentences that a first-year student finds confusing.\n\n## Context\nBeginners judge the whole repo by Session 1.\n\n## Expected outcome\nA clearer `sessions/session-01/README.md` and `lesson.py` comments.\n\n## Relevant files\n`sessions/session-01/README.md`, `sessions/session-01/lesson.py`\n\n## Acceptance criteria\n- [ ] At least three improvements\n- [ ] `python start.py test` still passes\n\n## Difficulty\nbeginner"
+  },
+  {
+    "title": "Add a colour-blind-safe palette to the live apps",
+    "labels": [
+      "good first issue",
+      "beginner"
+    ],
+    "body": "## Problem\nThe apps rely on one accent colour and a red marker; some colour-blind users cannot tell them apart.\n\n## Context\nAccessibility is part of the quality checklist (QUALITY.md, item 9).\n\n## Expected outcome\nA palette that stays distinguishable for common colour-blindness types, in light and dark mode.\n\n## Relevant files\n`sessions/session-03/app.html`\n\n## Acceptance criteria\n- [ ] Raw data, trend and marker distinguishable in grayscale\n- [ ] Screenshot added to the pull request\n\n## Difficulty\nbeginner"
+  },
+  {
+    "title": "Add Session 4: a detrend that keeps the transit",
+    "labels": [
+      "intermediate",
+      "feature"
+    ],
+    "body": "## Problem\nThe roadmap's first milestone does not exist yet.\n\n## Context\nSee `promo/roadmap.md`. The moving median of Session 3 keeps 94 percent of the transit depth; masking known transits does better.\n\n## Expected outcome\n`sessions/session-04/` with README (sections A to F), lesson, checkpoint, exercises and app in the same style as Sessions 1 to 3.\n\n## Relevant files\n`promo/roadmap.md`, `sessions/session-03/lesson.py`\n\n## Acceptance criteria\n- [ ] Checkpoint prints PASS and the roadmap checkpoint is met\n- [ ] Added to the tests\n\n## Difficulty\nintermediate"
+  },
+  {
+    "title": "Add Session 5: fit a limb-darkened transit",
+    "labels": [
+      "intermediate",
+      "feature"
+    ],
+    "body": "## Problem\nSession 3 uses a coarse grid fit with a flat-star model.\n\n## Context\nRoadmap Session 5. Session 2 already has a limb-darkened light curve by grid integration.\n\n## Expected outcome\nA lesson and app that fit k and b with the limb-darkened model and report uncertainties.\n\n## Relevant files\n`sessions/session-02/lesson.py`, `sessions/session-03/lesson.py`, `promo/roadmap.md`\n\n## Acceptance criteria\n- [ ] Radius ratio within 1 percent of the injected value on the demo curve\n- [ ] Checkpoint added\n\n## Difficulty\nintermediate"
+  },
+  {
+    "title": "Reproduce the Target: find a small planet in a spotted star",
+    "labels": [
+      "advanced",
+      "feature"
+    ],
+    "body": "## Problem\nThe Target animation shows a small planet recovered from a strongly varying star; there is no public implementation.\n\n## Context\nThe code behind the Target is private on purpose. The roadmap gives the path.\n\n## Expected outcome\nYour own implementation, written from the roadmap, plus an animation like the Target.\n\n## Relevant files\n`promo/roadmap.md`\n\n## Acceptance criteria\n- [ ] Detects the 600 ppm planet at SNR above 7\n- [ ] Short write-up of your method\n\n## Difficulty\nadvanced"
+  },
+  {
+    "title": "Add a secondary-eclipse test to the vetting step",
+    "labels": [
+      "intermediate",
+      "feature"
+    ],
+    "body": "## Problem\nThe odd-even check cannot catch a binary when BLS locks on its full orbit.\n\n## Context\nRoadmap milestone 'Unmask the binary'.\n\n## Expected outcome\nA function that measures the folded depth at phase 0.5 and flags significant dips there.\n\n## Relevant files\n`sessions/session-03/lesson.py`\n\n## Acceptance criteria\n- [ ] The Session 3 binary is flagged with its true 6.0 day orbit\n- [ ] The planet in the demo is not flagged\n\n## Difficulty\nintermediate"
+  },
+  {
+    "title": "Translate the Session 1 notes into Hindi",
+    "labels": [
+      "good first issue",
+      "beginner",
+      "documentation"
+    ],
+    "body": "## Problem\nStudents who prefer Hindi cannot read Session 1 comfortably.\n\n## Context\nThis project teaches first- and second-year students across India; translations widen who can join.\n\n## Expected outcome\n`sessions/session-01/README.hi.md` with a faithful Hindi translation of sections A to F, linked from the main README.\n\n## Relevant files\n`sessions/session-01/README.md`\n\n## Acceptance criteria\n- [ ] All sections translated\n- [ ] Equations, code blocks and file names unchanged\n- [ ] Link added to the main README\n\n## Difficulty\nbeginner"
+  },
+  {
+    "title": "Translate the Session 1 notes into Telugu",
+    "labels": [
+      "good first issue",
+      "beginner",
+      "documentation"
+    ],
+    "body": "## Problem\nStudents who prefer Telugu cannot read Session 1 comfortably.\n\n## Context\nThis project teaches first- and second-year students across India; translations widen who can join.\n\n## Expected outcome\n`sessions/session-01/README.te.md` with a faithful Telugu translation of sections A to F, linked from the main README.\n\n## Relevant files\n`sessions/session-01/README.md`\n\n## Acceptance criteria\n- [ ] All sections translated\n- [ ] Equations, code blocks and file names unchanged\n- [ ] Link added to the main README\n\n## Difficulty\nbeginner"
+  },
+  {
+    "title": "Translate the Session 1 notes into Tamil",
+    "labels": [
+      "good first issue",
+      "beginner",
+      "documentation"
+    ],
+    "body": "## Problem\nStudents who prefer Tamil cannot read Session 1 comfortably.\n\n## Context\nThis project teaches first- and second-year students across India; translations widen who can join.\n\n## Expected outcome\n`sessions/session-01/README.ta.md` with a faithful Tamil translation of sections A to F, linked from the main README.\n\n## Relevant files\n`sessions/session-01/README.md`\n\n## Acceptance criteria\n- [ ] All sections translated\n- [ ] Equations, code blocks and file names unchanged\n- [ ] Link added to the main README\n\n## Difficulty\nbeginner"
+  },
+  {
+    "title": "Translate the Session 1 notes into Malayalam",
+    "labels": [
+      "good first issue",
+      "beginner",
+      "documentation"
+    ],
+    "body": "## Problem\nStudents who prefer Malayalam cannot read Session 1 comfortably.\n\n## Context\nThis project teaches first- and second-year students across India; translations widen who can join.\n\n## Expected outcome\n`sessions/session-01/README.ma.md` with a faithful Malayalam translation of sections A to F, linked from the main README.\n\n## Relevant files\n`sessions/session-01/README.md`\n\n## Acceptance criteria\n- [ ] All sections translated\n- [ ] Equations, code blocks and file names unchanged\n- [ ] Link added to the main README\n\n## Difficulty\nbeginner"
+  }
+]
